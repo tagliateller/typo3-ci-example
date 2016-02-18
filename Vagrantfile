@@ -10,7 +10,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   # please see the online documentation at vagrantup.com.
 
   # Every Vagrant virtual environment requires a box to build off of.
-  config.vm.box = "debian/wheezy64"
+  config.vm.box = "ubuntu/trusty64"
 
   # Example config for exposing the HTTP port.
   # Don't use this in your CI environment when multiple builds run in parallel
